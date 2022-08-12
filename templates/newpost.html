@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Post</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    Name of the post:<br>
+    <input type="text" id="post_name"><br>
+    Text of the post:<br>
+    <input type="text" id="post_text"><br><br>
+    <button id="post">Post!</button><br>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='post.js') }}"></script>
+</body>
+</html>
